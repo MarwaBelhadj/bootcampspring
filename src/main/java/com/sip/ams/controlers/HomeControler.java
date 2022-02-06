@@ -7,6 +7,7 @@ public class HomeControler {
  
 	@RequestMapping("/info")
 	public String info() {
+		System.out.println("C'est une méthode  d'information");
 	 return "Home/info";
  }
 	
