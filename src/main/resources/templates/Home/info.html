@@ -20,7 +20,7 @@
 	</ul>
 
 	<h4 align="center">Formulaire d'inscription</h4>
-	<form>
+	<form method="POST" th:action="@{/result}">
 		<div class="conteiner" align="center">
 			<div class="row" style="margin-bottom:5px">
 				<div class="col-4 bg-info" align="right">
@@ -43,7 +43,7 @@
 					
 				</div>
 				<div class="col-8 ">
-					<input type="submit" value="email" class="btn btn-success" />
+					<input type="submit" value="Envoyer" class="btn btn-success" />
 				</div>
 			</div>
 	</form>
