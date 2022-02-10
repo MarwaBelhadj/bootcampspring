@@ -27,6 +27,6 @@ public class HomeControler {
 	@RequestMapping("/affichage") //ce que je tappe dans l'url
 	public String affiche() {
 		System.out.println("C'est un changement pour affichage");
-	 return "Home/affichage"; //nom de la vue dans le projet
+	 return "Home/affichage"; //nom de la vue dans le projet sous le dossier templates.
  }
 }
